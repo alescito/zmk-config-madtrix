@@ -78,6 +78,18 @@ default_layer {
    &kp BSLH  &kp PIPE  &trans    &trans    &trans      &kp ESC   &kp LBRC  &kp RBRC        &kp LBKT &kp RBKT
                        &trans &kp ENTER &trans   &kp RET   &kp SPACE    &trans
                         >;
+                };num_layer {
+// -----------------------------------------------------------------------------------------
+// |     |     |     |     |     |   |  A  |  7  |  8  |  9  |  D  |
+// |     |     |     |     |     |   |  B  |  4  |  5  |  6  |  E  |
+// |     |     |     |     |     |   |  C  |  1  |  2  |  3  |  F  |
+//             |     |     |     |   |  0  |  .  |     |
+                        bindings = <
+   &kp N1           &kp N2           &kp N3       &kp N4        &kp N5    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0
+   &kp LSHFT        &kp LCTRL        &kp LALT     &kp LGUI      &kp K_APP &kp K_APP &kp RGUI &kp RALT  &kp RCTRL &kp RSHFT
+   &trans           &bt BT_SEL 0     &bt BT_SEL 1 &bt BT_SEL 2  &trans    &trans    &trans   &kp COMMA &kp DOT   &kp FSLH
+                    &trans            &trans       &trans        &kp N0    &kp SPACE   &trans
+                        >;
                 };
 	};
 };
