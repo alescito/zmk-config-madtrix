@@ -28,7 +28,6 @@ behaviors {
 #define NAV 1
 #define SYM 2
 #define NUM 3
-#define FUN 4
 &lt {
     flavor = "balanced";
     tapping-term-ms = <165>;
