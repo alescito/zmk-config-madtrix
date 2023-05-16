@@ -118,7 +118,7 @@ behaviors {
                         bindings = <
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I &kp O &kp P
    &kp A &kp S &kp D &kp F  &kp G   &kp H &kp J &kp K &kp L &kp SEMI  
-   &trans &trans  &trans &bl_work_monitor &bl_pc_monitor  &bl_work    &bl_PC  &bl_PI &bootloader &bt BT_CLR 
+   &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
          &mt LSHIFT RET  &sc NUM LSHIFT &sl SYM &lt SYM RET &lt NAV SPACE &mt RCTRL RET
                         >;
                 };
