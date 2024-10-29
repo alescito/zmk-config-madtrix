@@ -1,3 +1,4 @@
+# This file generates the GitHub Actions matrix
 # # This file generates the GitHub Actions matrix
 # # For simple board + shield combinations, add them
 # # to the top level board and shield arrays, for more
@@ -14,6 +15,6 @@
 ---
 include:
  - board: nice_nano_v2
-   shield: madtrix_left
+   shield: microdox_left nice_view_adapter nice_view
  - board: nice_nano_v2
-   shield: madtrix_right
+   shield: microdox_right nice_view_adapter nice_view
