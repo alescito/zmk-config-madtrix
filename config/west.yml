@@ -1,10 +1,10 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/alescito
   projects:
-    - name: zmk
-      remote: zmkfirmware
+    - name: zmk-mine 
+      remote: alescito
       revision: main
       import: app/west.yml
   self:
